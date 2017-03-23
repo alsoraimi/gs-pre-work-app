@@ -10,6 +10,19 @@ namespace pre_work_grand_circ
     {
         static void Main(string[] args)
         {
+            int num = 0;
+            int revNum = 0;
+            Console.WriteLine("please enter any number higher than 0: ");
+            num = int.Parse(Console.ReadLine());  // had to convert from int to string
+            while (num != 0) ;
+            {
+                
+                
+
+
+            }
+
+
 
 
 
