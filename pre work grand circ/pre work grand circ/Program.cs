@@ -14,7 +14,7 @@ namespace pre_work_grand_circ
             int revNum = 0;       // named revNum for reversed number
             Console.WriteLine("please enter any number higher than 0: ");
             num = int.Parse(Console.ReadLine());  // had to convert from int to string
-            while (num != 0) ;
+            while (num != 0)
             {
                 revNum = revNum * 10;   
                 revNum = revNum + num % 10; // added reversed number multiplied by 10 plus the remainder of original num and 10
